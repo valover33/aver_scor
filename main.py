@@ -4,11 +4,11 @@ def main():
    students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
    aver_scor = []
    stud_sort = list(students)
-   stud_sort.sort()
+   stud_sort.sort()                 # Список отсортированых студентов
    for i in grades:
        a = sum(i) / len(i)
-       aver_scor.append(a)
-   av_sc = dict(zip(stud_sort, aver_scor ))
+       aver_scor.append(a)          # Cписок из средних балов студентов
+   av_sc = dict(zip(stud_sort, aver_scor ))     # Словарь результа из 2-х списков
    print(av_sc)
 
 if __name__ == '__main__':
