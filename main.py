@@ -8,7 +8,7 @@ def main():
    for i in grades:
        a = sum(i) / len(i)
        aver_scor.append(a)          # Cписок из средних балов студентов
-   av_sc = dict(zip(stud_sort, aver_scor ))     # Словарь результа из 2-х списков
+   av_sc = dict(zip(stud_sort, aver_scor ))     # Словарь результат из 2-х списков
    print(av_sc)
 
 if __name__ == '__main__':
